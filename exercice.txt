@@ -1,0 +1,19 @@
+ Maze Solving Program using Recursion in C
+
+In this programming exercise, you will implement a maze-solving program in C using recursion. You will receive a square 2D matrix representing a maze, where some cells are navigable and others are not. The goal is to find a path from a source cell to a target cell while navigating through the maze.
+
+Program Requirements:
+
+Create a square 2D matrix representing the maze. You can use a 2D array for this purpose. The maze should consist of navigable cells (representing paths) denoted by "0" and non-navigable cells (representing obstacles) denoted by "1."
+Implement a recursive function, for example, "findPath," that explores the maze starting from a given source cell and tries to reach a target cell.
+The program should accept the following user inputs:
+Dimensions (size) of the maze (e.g., N x N).
+The maze itself as an input matrix.
+Coordinates of the source cell (starting point).
+Coordinates of the target cell (destination).
+The recursive function "findPath" should use backtracking to navigate through the maze and find a path from the source to the target.
+During traversal, use appropriate constraints to avoid moving into non-navigable cells ("1") or out of the maze boundaries. Also, consider marking already visited cells to avoid infinite loops.
+If a path is found, the program should print the path, marking the traversed cells with a specific symbol (e.g., "X").
+If no path is found, the program should display a message indicating that there is no solution.
+Ensure that the program handles invalid inputs correctly, such as invalid coordinates or incorrect maze dimensions.
+After each execution, allow the user to run the program with different maze configurations or exit the program.
